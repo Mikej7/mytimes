@@ -25,7 +25,7 @@ nav {
   margin-right: 12 px;
 
 }
-.logo h1{
+.logo p{
   font-size: 14px;
   display: inline-block;
   align-items: center;
@@ -40,4 +40,22 @@ nav li{
 }
 nav li a {
   color:black;
+}
+
+.column {
+  display: flex;
+  align-content: stretch;
+}
+.column .large {
+  width: 630px;
+  border: 1px solid black;
+}
+.column .medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column .small {
+  width: 240px;
+  border: 1px solid black;
 }
