@@ -44,12 +44,27 @@ nav li a {
 
 .column {
   display: flex;
-  align-content: stretch;
+  width: 1232px;
 }
 .column .large {
+  flex-wrap: nowrap;
+  flex-direction: column;
   width: 630px;
   border: 1px solid black;
 }
+
+  
+    .story2 {
+      width: 300px;
+      border: 1px solid black;
+    }
+
+    .story3 {
+      width: 300px;
+      border: 1px solid black;
+    }
+
+
 .column .medium {
   width: 300px;
   border: 1px solid black;
