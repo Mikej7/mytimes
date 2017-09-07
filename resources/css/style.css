@@ -59,7 +59,7 @@ h2 {
   flex-direction: column;
   flex: 2 1;
   width: 630px;
-  border: 1px solid black;
+
 }
 
 .mainheadline {
@@ -104,7 +104,7 @@ h2 {
       font-size:17px;
       color: black;
       width: 300px;
-      border: 1px solid black;
+
     }
 
     .story3 {
@@ -112,7 +112,7 @@ h2 {
       font-size:17px;
       color: black;
       width: 300px;
-      border: 1px solid black;
+
     }
 
     .story4 {
@@ -140,14 +140,14 @@ h2 {
 .column .medium {
   flex: 2 1;
   width: 300px;
-  border: 1px solid black;
+
 }
 
 .column .small {
   flex-direction: column;
   flex: 2 1;
   width: 240px;
-  border: 1px solid black;
+  
 }
 
 .pictures {
