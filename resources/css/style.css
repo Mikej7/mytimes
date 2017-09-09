@@ -4,7 +4,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  width: 1271px;
+  width: 100%;
   height: 80px;
   justify-content: space-between;
   align-content: center;
@@ -58,15 +58,16 @@ h2 {
 .column {
 
   display: flex;
+
   padding-top: 80px;
-  width: 1232px;
+  width: 100%;
   height: auto;
 }
 .column .large {
   flex-wrap: nowrap;
   flex-direction: column;
   flex: 2 1;
-  width: 630px;
+  width: 100%;
   padding: 10px 20px;
 
 }
@@ -184,6 +185,7 @@ h2 {
   text-align: center;
   vertical-align: center;
   flex: 2 1;
+  margin-right:20px;
   }
 
   #research {
@@ -200,7 +202,7 @@ h2 {
     text-align: center;
     vertical-align: center;
     flex: 2 1;
-
+    margin-left: 20px;
   }
 .newsbitestitle {
   font-size: 16px;
@@ -264,40 +266,41 @@ h2 {
 
 .footer {
   display: flex;
-  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 0 auto auto;
   background-color: MediumAquamarine;
-  height: 300px;
+  height: 325px;
   width: 100%;
-
+  z-index: 1;
   align-items: center;
 
 
 }
-.footerheadline {
+.footer .footerheadline {
+  display: inline-block;
   color:white;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
-  text-align: center;
-  padding: 20px 10px;
-  margin-left: 300px;
+  padding-right: 25px;
+
+  border-right: 2px solid white;
 }
 
 .navigation a{
   display:inline-block;
-  align-items: stretch;
-  padding: 20px 10px;
+    padding-left: 25px;
   color:black;
   font-family: Verdana;
   font-size: 12px;
-  text-align: center;
+
 }
 
-.copyright {
-  margin-top: 40px;
+.footer .copyright {
+  margin-top:15px;
+  align-items: right;
 
-
-  text-align: center;
   display: inline-block;
   font-family: Verdana;
   font-size: 12px;
